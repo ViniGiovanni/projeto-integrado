@@ -1,0 +1,86 @@
+.menu-lateral{
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    background-color: #26a69a;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.menu-lateral h3{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.menu-img-fundo{
+    background:url('../../assets/fundo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.menu-img-fundo img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 90px;
+    height: 90px;
+    -webkit-filter: drop-shadow(10px 15px 50px #121212);
+    filter: drop-shadow(10px 15px 50px rgb(0, 0, 0));
+    object-fit: cover;
+}
+
+.menu-links{
+    margin-top: 70px;
+}
+.menu-links a{
+    display: block;
+    color: #282828;
+    padding: 16px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: ease-in-out .4s;
+    cursor: pointer;
+    font-size: 18px;
+}
+.menu-links a svg{
+    margin-right: .5em;
+}
+
+.menu-logoff{
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.menu-logoff button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.menu-logoff p{
+
+}
+
+
+.menu-lateral a:hover{
+    background-color: #1fc3b2;
+    color: black;
+}
